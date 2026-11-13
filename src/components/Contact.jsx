@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-12 md:grid-cols-2">
           <div>
-            <SectionHeading eyebrow="Contact" title="Let's build something meaningful together." description="I'm interested in opportunities where I can apply my programming, analytical and problem-solving skills. Feel free to get in touch." />
+            <SectionHeading eyebrow="Contact" title="Let's build something meaningful ." description="I'm interested in opportunities where I can apply my programming, analytical and problem-solving skills. Feel free to get in touch." />
             <a href={`mailto:${profile.email}`} className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-blue-500">
               Send an email <Send size={16} />
             </a>
